@@ -104,20 +104,20 @@ h1{
 		}
 
         function copyNumber() {
-        // Get the number to copy
+        
         var numberToCopy = document.getElementById("randomNumber").textContent;
         
-        // Copy the number
+        
         navigator.clipboard.writeText(numberToCopy);
         
-        // Show a message indicating that the number has been copied
+     
         setTimeout(function(){
             alert("Number copied to clipboard!");
         },1);
         
       }
       
-      // Generate a random number when the page loads
+      
       window.onload = generateRandomNumber;
 		
 </script>
